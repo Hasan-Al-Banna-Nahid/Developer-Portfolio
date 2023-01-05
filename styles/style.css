@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "open sans"; */
+}
+
+/* Header and Navigation Bar Design */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../assests/images/header_bg.png'), url('../assests/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 25px 0 15px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.625);
+    font-weight: 500;
+}
+
+nav h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #ffffff;
+    font-size: 18px;
+    height: 44px;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    cursor: pointer;
+}
+
+/* .secondary-btn{
+    
+    border: none; 
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 2px;
+    
+} */
+/* Banner Section Design */
+.banner {
+    display: flex;
+    margin: 80px 120px;
+}
+
+#banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Main Section Design */
+.main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* About Me Section Design */
+.about {
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    color: rgba(0, 0, 0, 0.890);
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.section-description {
+    color: grey;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+
+}
+
+.about-info {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.about-info-container .about-info p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.790);
+
+}
+
+.about-info .info-title {
+    color: grey;
+    font-size: 18px;
+}
+
+.about-info .info-description {
+    color: rgba(0, 0, 0, 0.790);
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 5px; */
+}
+
+/* Skills Section Design */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.517);
+    margin: 0 auto;
+    height: 350px;
+    align-items: center;
+
+}
+
+/* .skills-container .skill-title,.skill-description{
+     text-align: center; 
+}  */
+.skills-container .skill-title {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.890);
+}
+
+.skills-container .skill-description {
+    margin: 8px 0 0 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: darkslategrey;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.skills-container>div {
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 290px;
+    width: 220px;
+    /* box-shadow: 2px 2px 2.5px 1px rgba(119, 136, 153, 0.014); */
+
+}
+
+.skill>img {
+    margin: 12px 0 0 16px;
+    border-radius: 2.2px;
+}
+
+.what-i-do h3,
+p {
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+.what-i-do h3 {
+    color: rgba(0, 0, 0, 0.890);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.what-i-do p {
+    color: grey;
+}
+
+/* Resume section Design */
+.resume-title {
+    text-align: center;
+    margin: 100px 0 90px 0;
+    color: rgba(0, 0, 0, 0.890);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-education .edu-title,
+.exp-title {
+    color: rgba(0, 0, 0, 0.802);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.deg-title,.designation-title {
+    color: rgba(0, 0, 0, 0.802);
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.clg-sub-title,.designation-sub-title {
+    color: grey;
+    font-size: 20px;
+}
+
+.edu-description,.designation-description {
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+}
+
+.common-hr {
+    width: 95%;
+    color: grey;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+
+}
+.btn-primary-resume{
+    color: #ffffff;
+    font-size: 18px;
+    height: 49px;
+    display: flex;
+    padding: 12.5px 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #FD6E0A;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Form Footer Section */
+.form-footer{
+    display: flex;
+    background-color: rgba(255, 182, 193, 0.18);
+    padding: 80px 60px;
+    /* height: 500px; */
+}
+.social-link-title,.form-title{
+    text-align: left;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+.social-link-description{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.678);
+}
+.social-link>a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.form>input[type="text"],input[type="email"],textarea{
+    display: block;
+    padding: 20px 30px;
+    width: 70%;
+    text-align: left;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.73);
+    border: none;
+    margin: 2px 0 10px 2px;
+}
+.form-footer>div{
+    width: 50%;
+    margin: 0 50px ;
+}
+.btn-primary-submit{
+    color: #ffffff;
+    font-size: 18px;
+    height: 49px;
+    display: flex;
+    padding: 12.5px 23px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    cursor: pointer;
+    /* margin: 0 auto; */
+    width: 110px;
+    text-align: center;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
