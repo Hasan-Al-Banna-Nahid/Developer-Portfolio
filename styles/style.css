@@ -55,17 +55,29 @@ nav h2 {
     cursor: pointer;
 }
 
-/* .secondary-btn{
+.secondary-btn{
     
-    border: none; 
+    /* border: none; 
+    border-radius: 5px;
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
-    padding: 12px 20px;
+    padding: 15px 22px;
     font-weight: 600;
     font-size: 18px;
-    margin-left: 2px;
+    margin-left: 3px; */
+
+    color: #FD6E0A;
+    font-size: 18px;
+    height: 48px;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
     
-} */
+}
 /* Banner Section Design */
 .banner {
     display: flex;
