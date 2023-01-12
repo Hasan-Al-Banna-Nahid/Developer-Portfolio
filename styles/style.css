@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "open sans"; */
+    font-family: "open sans";
+
 }
 
 /* Header and Navigation Bar Design */
@@ -55,17 +56,7 @@ nav h2 {
     cursor: pointer;
 }
 
-.secondary-btn{
-    
-    /* border: none; 
-    border-radius: 5px;
-    border: 1px solid #FD6E0A;
-    color: #FD6E0A;
-    padding: 15px 22px;
-    font-weight: 600;
-    font-size: 18px;
-    margin-left: 3px; */
-
+.secondary-btn {
     color: #FD6E0A;
     font-size: 18px;
     height: 48px;
@@ -76,8 +67,9 @@ nav h2 {
     border-radius: 7px;
     border: none;
     cursor: pointer;
-    
+
 }
+
 /* Banner Section Design */
 .banner {
     display: flex;
@@ -173,9 +165,7 @@ nav h2 {
 
 }
 
-/* .skills-container .skill-title,.skill-description{
-     text-align: center; 
-}  */
+
 .skills-container .skill-title {
     margin-top: 25px;
     text-align: left;
@@ -246,19 +236,22 @@ p {
     margin-bottom: 30px;
 }
 
-.deg-title,.designation-title {
+.deg-title,
+.designation-title {
     color: rgba(0, 0, 0, 0.802);
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.clg-sub-title,.designation-sub-title {
+.clg-sub-title,
+.designation-sub-title {
     color: grey;
     font-size: 20px;
 }
 
-.edu-description,.designation-description {
+.edu-description,
+.designation-description {
     color: grey;
     font-size: 18px;
     text-align: left;
@@ -271,7 +264,8 @@ p {
     margin-bottom: 25px;
 
 }
-.btn-primary-resume{
+
+.btn-primary-resume {
     color: #ffffff;
     font-size: 18px;
     height: 49px;
@@ -285,14 +279,17 @@ p {
     margin: 0 auto;
     text-align: center;
 }
+
 /* Form Footer Section */
-.form-footer{
+.form-footer {
     display: flex;
     background-color: rgba(255, 182, 193, 0.18);
     padding: 80px 60px;
     /* height: 500px; */
 }
-.social-link-title,.form-title{
+
+.social-link-title,
+.form-title {
     text-align: left;
     margin: 20px 0;
     color: rgb(0, 0, 0);
@@ -300,18 +297,23 @@ p {
     font-weight: bolder;
 
 }
-.social-link-description{
+
+.social-link-description {
     text-align: left;
     margin-top: 5px;
     font-size: 18px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.678);
 }
-.social-link>a{
+
+.social-icon>a {
     margin: 0 10px;
     text-decoration: none;
 }
-.form>input[type="text"],input[type="email"],textarea{
+
+.form-icon>input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     padding: 20px 30px;
     width: 70%;
@@ -321,11 +323,13 @@ p {
     border: none;
     margin: 2px 0 10px 2px;
 }
-.form-footer>div{
+
+.form-footer>div {
     width: 50%;
-    margin: 0 50px ;
+    margin: 0 50px;
 }
-.btn-primary-submit{
+
+.btn-primary-submit {
     color: #ffffff;
     font-size: 18px;
     height: 49px;
@@ -340,7 +344,198 @@ p {
     width: 110px;
     text-align: center;
 }
-::placeholder{
+
+::placeholder {
     font-size: 15px;
     font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 20px 20px;
+        margin-top: 0;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+
+    }
+
+    .skills-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 5px;
+
+
+    }
+
+    .skills-container>div {
+        height: 350px;
+        width: 300px;
+
+    }
+
+    .skill .skill-title {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .what-i-do p {
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .resume-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+
+    .resume-education .edu-title,
+    .exp-title {
+        text-align: center;
+    }
+
+    .form-footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-link-title,
+    .form-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .social-link-description {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .form-footer {
+        padding: 0 0;
+
+    }
+
+    .social-icon>a {
+        margin-bottom: 30px;
+
+    }
+
+    .form-icon>input[type="text"],
+    input[type="email"],
+    textarea {
+        background-color: darkslategrey;
+        width: 220px;
+        border-radius: 7px;
+        font-weight: 600;
+    }
+
+    .form-section {
+        margin-bottom: 50px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 10px 50px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    nav h2 {
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+    .banner {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #banner-sub-title,
+    #banner-title {
+        text-align: center;
+    }
+
+    #banner-description {
+        padding: 0 20px;
+    }
+
+    .banner-btn {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .btn-primary1 {
+        color: #ffffff;
+        width: 150px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+
+    }
+  
+    .btn-primary {
+        height: 60px;
+        margin-left: 110px;
+        padding: 10px 20px;
+
+    }
+
+    .secondary-btn {
+        height: 48px;
+        width: 150px;
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .btn-primary1 {
+        font-size: 18px;
+        height: 60px;
+        width: 150px;
+        margin-left: 95px;
+        margin-top: 50px;
+        color: #ffffff;
+        padding: 10px 20px;
+        margin: 5px 5px;
+        font-weight: 600;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        border: none;
+        cursor: pointer;
+    }
+
+ 
 }
